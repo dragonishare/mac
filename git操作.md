@@ -7,6 +7,10 @@ git config --local user.email "dragonishare@gmail.com"
 
 
 git commit --amend --author 
+
+**提交某个目录下的内容**
+`git add <path>`
+
 ## mac多github账号配置
 
 * 生成新的SSH keys
