@@ -11,6 +11,15 @@ git commit --amend --author
 **提交某个目录下的内容**
 `git add <path>`
 
+**create a new repository on the command line** 
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:xx/xxx.git
+git push -u origin master
+
+
 ## mac多github账号配置
 
 * 生成新的SSH keys
