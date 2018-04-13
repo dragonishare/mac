@@ -15,6 +15,12 @@ git commit --amend --author
 多个文件名之间用空格隔开 
 `git add filenamea filenameb`
 
+**git add 撤销**
+如果是撤销所有的已经add的文件:
+`git reset HEAD .`
+如果是撤销某个文件或文件夹：
+`git reset HEAD -filename`
+
 **暂存修改的代码**
 `git stash`
 
