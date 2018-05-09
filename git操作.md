@@ -52,6 +52,8 @@ git commit -m "first commit"
 git remote add origin git@github.com:xx/xxx.git
 git push -u origin master
 
+**撤回本地commit**
+`git reset --soft HEAD^`
 
 ## mac多github账号配置
 
