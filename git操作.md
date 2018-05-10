@@ -55,6 +55,18 @@ git push -u origin master
 **撤回本地commit**
 `git reset --soft HEAD^`
 
+**打tag**
+` git tag -a tagname -m '注释'`
+
+**查看tag**
+`git tag `
+
+**查看指定tag**
+`git show tag tagname`
+
+**推送所有tag到仓库**
+`git push origin --tags`
+
 ## mac多github账号配置
 
 * 生成新的SSH keys
@@ -68,5 +80,7 @@ git push -u origin master
 ## 参考
 [github账号切换以及https和SSH上传方式对比](https://www.jianshu.com/p/1ac06bcd8ab5)
 
+
+[git多账号登陆问题](https://www.cnblogs.com/wangdaijun/p/5154468.html)
 
 
