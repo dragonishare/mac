@@ -138,12 +138,14 @@ UPDATE mysql.user SET authentication_string=PASSWORD('新密码') WHERE User='ro
 FLUSH PRIVILEGES;
 
 \q
+```
 
-* 4. 重启MySQL
+* 4.重启MySQL
 
 * 以上方法针对 MySQL V5.7.9, 旧版的mysql请使用：UPDATE mysql.user SET Password=PASSWORD('新密码') WHERE User='root';
 
 **解决Mac下 MySQL 命令在命令行中不能直接使用的问题**
+
 * 1. 输入如下命令进入home目录
 
 `cd ~`
@@ -165,7 +167,21 @@ FLUSH PRIVILEGES;
 
 
 
+### 其他工具
+
+**安装 tree**
+命令行生成目录树
+`brew install tree`
+
+> 
+* --help 查看帮助信息 `tree --help`
+* -L 参数指定遍历层级 `tree -L 2`
+* 把目录的结构树导出到文件当前目录下的 README.md 文件 `tree -L 2 >README.md`
+* 只显示文件夹 `tree -d`
+* 过滤不想要显示的文件或者文件夹 `tree -I "node_modules"`
 
 
+`tree -L 3 -I "node_modules" > README.md`
+展示除了"node_modules"文件夹外，其他文件夹三层级内容，然后导出到README.md
 
 
