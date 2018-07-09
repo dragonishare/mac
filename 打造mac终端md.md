@@ -42,6 +42,8 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
 
+## 配置iterm2
+安装 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 
 
