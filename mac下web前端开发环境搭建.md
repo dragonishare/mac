@@ -66,6 +66,7 @@ mac系统自带
 
 ### Sequel Pro
 
+MySQL数据库管理系统 比较简洁 而且免费
 `brew cask install sequel-pro`
 
 ### CheatSheet
@@ -77,6 +78,9 @@ mac系统自带
 
 ### IINA 视频播放
 `brew cask install iina`
+
+### Keka 压缩/解压缩工具
+`brew cask install keka`
 
 ## 其他小工具
 
@@ -93,3 +97,34 @@ mac系统自带
 ### Transmit  FTP client for Mac
 ### Zeplin 
 ### Sketch 轻量易用的矢量设计工具
+
+## 开发工具安装
+
+### tree 命令行生成目录树
+`brew install tree`
+
+> 
+  * --help 查看帮助信息 `tree --help`
+  * -L 参数指定遍历层级 `tree -L 2`
+  * 把目录的结构树导出到文件当前目录下的 README.md 文件 `tree -L 2 >README.md`
+  * 只显示文件夹 `tree -d`
+  * 过滤不想要显示的文件或者文件夹 `tree -I "node_modules"`
+
+`tree -L 3 -I "node_modules" > README.md`
+展示除了"node_modules"文件夹外，其他文件夹三层级内容，然后导出到README.md
+
+### node
+
+通过brew全局安装通过
+`brew install node`
+
+### iterm2
+背景透明度（Preferences - Profiles - Window - transparency）
+
+### zsh
+
+### zsh安装on my zsh
+
+### autojump
+
+### 

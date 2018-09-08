@@ -64,7 +64,6 @@ Mweb Lite: markdown编辑器
 
 `brew install node`
 
-
 **MySQL安装配置**
 通过官网下载安装包进行安装，[Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
 
@@ -174,11 +173,11 @@ FLUSH PRIVILEGES;
 `brew install tree`
 
 > 
-* --help 查看帮助信息 `tree --help`
-* -L 参数指定遍历层级 `tree -L 2`
-* 把目录的结构树导出到文件当前目录下的 README.md 文件 `tree -L 2 >README.md`
-* 只显示文件夹 `tree -d`
-* 过滤不想要显示的文件或者文件夹 `tree -I "node_modules"`
+  * --help 查看帮助信息 `tree --help`
+  * -L 参数指定遍历层级 `tree -L 2`
+  * 把目录的结构树导出到文件当前目录下的 README.md 文件 `tree -L 2 >README.md`
+  * 只显示文件夹 `tree -d`
+  * 过滤不想要显示的文件或者文件夹 `tree -I "node_modules"`
 
 
 `tree -L 3 -I "node_modules" > README.md`
