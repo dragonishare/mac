@@ -10,11 +10,13 @@ Homebrew是一款Mac OS平台下的软件包管理工具，拥有安装、卸载
 ```
 
 **卸载**，将以下命令粘贴至终端Terminal
+
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 ```
 
-Homebrew基本使用
+**Homebrew基本使用**
+
 ```
 //查看Homebrew版本
 brew -v
@@ -51,6 +53,9 @@ mac系统自带
 `brew cask install visual-studio-code`
 
 ### Sublime Text
+`brew cask install sublime-text`
+
+### SourceTree
 `brew cask install sourcetree`
 
 ### Google Chrome
@@ -60,4 +65,22 @@ mac系统自带
 `brew cask install firefox`
 
 ### Sequel Pro
+
 `brew cask install sequel-pro`
+
+### CheatSheet
+
+`brew cask install cheatsheet`
+
+### AppCleaner
+`brew cask install appcleaner`
+
+## 其他小工具
+
+### Typora markdown编辑器
+### Dr. Cleaner Mac清理软件
+### Apowersoft 录屏
+### iThoughtsX 思维导图
+### MindNode 思维导图
+### Boostnote 记笔记
+### Marp 用Markdown编写PPT
