@@ -115,8 +115,11 @@ MySQL数据库管理系统 比较简洁 而且免费
 
 ### node
 
-通过brew全局安装通过
+通过brew全局安装
 `brew install node`
+
+### Yarn
+`brew install yarn`
 
 ### iterm2
 背景透明度（Preferences - Profiles - Window - transparency）
