@@ -75,8 +75,12 @@ mac系统自带
 ### AppCleaner
 `brew cask install appcleaner`
 
+### IINA 视频播放
+`brew cask install iina`
+
 ## 其他小工具
 
+### 有道云笔记
 ### Typora markdown编辑器
 ### Dr. Cleaner Mac清理软件
 ### Apowersoft 录屏
@@ -84,3 +88,8 @@ mac系统自带
 ### MindNode 思维导图
 ### Boostnote 记笔记
 ### Marp 用Markdown编写PPT
+### TeamViewer 远程工具
+### 微信开发者工具
+### Transmit  FTP client for Mac
+### Zeplin 
+### Sketch 轻量易用的矢量设计工具
