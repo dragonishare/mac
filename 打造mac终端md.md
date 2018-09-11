@@ -45,8 +45,32 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ## 配置iterm2
 安装 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
+#### MAC OS下切换默认终端为zsh
+`chsh -s /bin/zsh`
 
+切回默认终端bash
+`chsh -s /bin/bash`
+
+#### zsh 自定义命令提示符(PS1/ prompt)
+
+#### iTerm2 + zsh
+
+iTerm2 比 Mac 默认的 Terminal 终端好用，配合 Zsh 确实更加得体
+* **牢记**： 装了 zsh 之后，修改终端配置就变成了：`vim ~/.zshrc`，而不是：`vim ~/.bash_profile`，所以以后看到别人的文章中需要：`vim ~/.bash_profile`，那你自己要变通思想过来。
+* 同时更新修改后的配置文件也从：`source ~/.bash_profile`，变成了：`source ~/.zshrc`
 
 ## 参考
-[终极 Shell](http://macshuo.com/?p=676)
 
+[终极 Shell](http://macshuo.com/?p=676)
+[终端方案iTerm2 + Zsh](https://www.jianshu.com/p/e7af448d01b0)
+
+
+## iTerm 2、Bash、Zsh、shell
+
+iterm2以及mac自带的terminal都是终端模拟器；item2 只是一个壳，一个客户端软件
+bash，zsh是shell，zsh兼容bash
+Bash是目前最通用、最常见的Shell，也是众多Linux发行版的标配。
+oh my zsh就是一套zsh插件管理工具，把大量的插件都放在plugin目录下，省掉了手动配置.zshrc的麻烦
+
+[iTerm与Zsh篇](https://xiaozhou.net/learn-the-command-line-iterm-and-zsh-2017-06-23.html)
+[Mac终端配置，DIY你的Terminal （iTerm 2 + Oh My Zsh](https://segmentfault.com/a/1190000012786464)
