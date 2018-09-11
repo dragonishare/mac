@@ -41,8 +41,12 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
 
+#### 卸载oh my zsh
+
+直接在终端中，运行`uninstall_oh_my_zsh`既可以卸载
 
 ## 配置iterm2
+
 安装 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 #### MAC OS下切换默认终端为zsh
@@ -74,3 +78,12 @@ oh my zsh就是一套zsh插件管理工具，把大量的插件都放在plugin�
 
 [iTerm与Zsh篇](https://xiaozhou.net/learn-the-command-line-iterm-and-zsh-2017-06-23.html)
 [Mac终端配置，DIY你的Terminal （iTerm 2 + Oh My Zsh](https://segmentfault.com/a/1190000012786464)
+
+
+Bash 与 Zsh 都是 Mac 自带的 Shell，Shell 负责外界与系统内核的交互， Mac 默认的 Shell 是 Bash, 不过现在大家基本上都会切换成 Zsh，且必须配合 Oh My Zsh，帮你自动处理一些复杂配置过程。
+
+
+#### zsh插件
+zsh-autosuggestions： Zsh 本身就支持自动补全，不过如果需要自动提示你曾经敲过的历史命令，可以使用这个插件
+
+zsh-syntax-highlighting：它能自动识别已支持的命令并将其高亮
