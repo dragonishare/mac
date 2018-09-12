@@ -82,3 +82,6 @@ create user 'nodejs'@'localhost' identified by 'nodejs';
 # 将用户权限信息从数据表同步到内存（此命令可以避免重启mysql服务）
 FLUSH PRIVILEGES;
 ```
+
+## 
+echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
