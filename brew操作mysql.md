@@ -43,3 +43,42 @@ mysql>ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ne
 
 newpass你的新密码，即可
 
+## MySQL
+
+```mysql
+//启动MySQL服务
+mysql.server start
+
+//重启服务
+mysql.server restart
+
+//停止服务
+mysql.server stop
+
+//登陆
+mysql -u root -p
+然后输入密码
+
+```
+
+基本命令
+```mysql
+# 查看有哪些数据库
+show databases;
+# 查看当前使用的是哪个数据库
+select database();
+# 选择数据库
+use [database-name];
+# 显示数据库中的tables
+show tables;
+# 建立数据库
+CREATE DATABASE [new-database-name];
+
+```
+新建用户
+```mysql
+# 给localhost创建用户nodejs，并将密码设置为nodejs
+create user 'nodejs'@'localhost' identified by 'nodejs';
+# 将用户权限信息从数据表同步到内存（此命令可以避免重启mysql服务）
+FLUSH PRIVILEGES;
+```
